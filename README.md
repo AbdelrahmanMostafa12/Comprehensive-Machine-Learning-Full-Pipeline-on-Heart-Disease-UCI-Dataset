@@ -33,7 +33,6 @@ The project is **well-organized** for clarity and reproducibility, and culminate
 │   └── 06_hyperparameter_tuning.ipynb
 ├── models/                  # Saved ML model and encoder (.pkl)
 ├── ui/                      # Streamlit app source code (app.py)
-├── deployment/              # Ngrok setup instructions
 ├── results/                 # Evaluation metrics and visualizations
 └── requirements.txt         # Project dependencies
 ```
@@ -105,13 +104,6 @@ Download and place it in the `data/` directory, or update notebook paths as need
 - 🛠️ **Optimization:** GridSearchCV & RandomizedSearchCV  
 - 🖥️ **Interactive UI:** Streamlit app for predictions & visualization  
 - 🌐 **Deployment Ready:** Ngrok integration for public access  
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.  
-See the [`LICENSE`](LICENSE) file for more details.
 
 ---
 
